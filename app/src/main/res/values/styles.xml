@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+    </style>
+
+    <!-- ToolBar theme -->
+    <style name="ToolbarTheme">
+        <item name="android:elevation">8dp</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Headline</item>
+    </style>
+
+</resources>
